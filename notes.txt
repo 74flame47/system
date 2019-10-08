@@ -1,0 +1,44 @@
+Database for server for system:
+    tables:
+        +projects_________
+            -id
+            -title
+        +tiles_________
+            -id
+            -title
+            -copy
+
+
+
+
+===========List of relations==========
+ Schema |   Name   | Type  |  Owner
+--------+----------+-------+----------
+ public | projects | table | postgres
+ public | tiles    | table | postgres
+
+
+
+===============Tiles==================
+ id | title |              copy
+----+-------+---------------------------------
+  1 | bush  | the bush burned all night
+  2 | snail | The snail moved slow all night.
+  3 | wolf  | The wolf hunted all night.
+  4 | here  | I was here!
+  5 | brush | Let me brush my hair!
+
+
+===============Projects===============
+ id | title
+----+-------
+  1 | here
+  2 | here
+  3 | brush
+  4 | brush
+  5 | brush
+  6 | snail
+  7 | snail
+(7 rows)
+
+

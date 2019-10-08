@@ -1,0 +1,13 @@
+#bg{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: rgb(0,8,81);
+  background: linear-gradient(30deg, rgba(0,8,81,1) 5%, rgba(21,98,190,1) 61%, rgba(28,181,224,1) 100%);
+}
+
+
+
+
